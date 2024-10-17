@@ -3,7 +3,7 @@ name: Test Showcase
 on: [pull_request]
 
 jobs:
-  build:
+  testShowcase:
 
     runs-on: ubuntu-latest
 
