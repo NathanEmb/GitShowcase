@@ -10,3 +10,12 @@ def greater_than_five(input: int, inclusive: bool = False) -> bool:
         return input >= 5
 
     return input > 5
+
+def string_reverser(input: str) -> str:
+    """ Returns the reverse of the input string.
+
+    :param input: The input string.
+    :return: The reverse of the input string.
+    """
+
+    return input[::-1]
